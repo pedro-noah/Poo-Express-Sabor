@@ -7,7 +7,7 @@ class Avaliacao:
         - cliente (str): O nome do cliente.
         - nota (float): A nota do restaurante.
         """
-        self.cliente = cliente
-        self.nota = nota
+        self._cliente = cliente
+        self._nota = nota
         
     
